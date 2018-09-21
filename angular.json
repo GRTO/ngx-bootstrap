@@ -94,7 +94,7 @@
             "tsConfig": "demo/src/../../src/tsconfig.spec.json",
             "scripts": [],
             "styles": [
-              "src/datepicker/bs-datepicker.scss",
+              "src/datepicker/src/bs-datepicker.scss",
               "demo/src/assets/css/style.scss",
               "demo/src/assets/css/prettify-angulario.css"
             ],

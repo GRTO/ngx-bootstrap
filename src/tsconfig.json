@@ -12,7 +12,6 @@
     "noEmitHelpers": false,
     "noImplicitAny": true,
     "declaration": true,
-    "skipLibCheck": false,
     "stripInternal": true,
     "strictNullChecks": false,
     "allowSyntheticDefaultImports": true,
@@ -33,6 +32,7 @@
   ],
   "angularCompilerOptions": {
     "genDir": "../temp/factories",
+    "enableResourceInlining": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
     "fullTemplateTypeCheck": true

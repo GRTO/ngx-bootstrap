@@ -6,6 +6,9 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
@@ -13,11 +16,6 @@
     "typeRoots": [
       "../node_modules/@types"
     ],
-    "paths": {
-      "ngx-bootstrap*": [
-        "."
-      ]
-    },
     "types": [
       "jasmine",
       "webpack"

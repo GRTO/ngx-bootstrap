@@ -9,6 +9,8 @@
       "jasmine",
       "webpack"
     ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "mapRoot": "./",
     "module": "commonjs",
     "moduleResolution": "node",

@@ -21,7 +21,7 @@
       "mobile": false,
       "serviceWorker": false,
       "styles": [
-        "../../src/datepicker/bs-datepicker.scss",
+        "../../src/datepicker/src/bs-datepicker.scss",
         "assets/css/style.scss",
         "assets/css/prettify-angulario.css"
       ],
@@ -50,7 +50,7 @@
       "mobile": false,
       "serviceWorker": false,
       "styles": [
-        "../../src/datepicker/bs-datepicker.scss",
+        "../../src/datepicker/src/bs-datepicker.scss",
         "assets/css/style.scss",
         "assets/css/prettify-angulario.css"
       ],

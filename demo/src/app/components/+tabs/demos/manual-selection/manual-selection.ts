@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { TabsetComponent } from 'ngx-bootstrap';
+import { TabsetComponent } from 'ngx-bootstrap/tabs';
 
 @Component({
   selector: 'demo-tabs-manual-selection',
@@ -8,7 +8,7 @@ import { TabsetComponent } from 'ngx-bootstrap';
 export class DemoTabsManualSelectionComponent {
   @ViewChild('staticTabs') staticTabs: TabsetComponent;
 
-  selectTab(tab_id: number) {
-    this.staticTabs.tabs[tab_id].active = true;
+  selectTab(tabId: number) {
+    this.staticTabs.tabs[tabId].active = true;
   }
 }

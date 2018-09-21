@@ -3,11 +3,8 @@ import {
   DayViewModel,
   WeekViewModel
 } from '../models/index';
-import { isSameDay, isSameMonth } from '../../chronos/utils/date-getters';
-import { isAfter, isBefore } from '../../chronos/utils/date-compare';
+import { isSameDay, isSameMonth, isAfter, isBefore, shiftDate } from 'ngx-bootstrap/chronos';
 import { isMonthDisabled } from '../utils/bs-calendar-utils';
-import { shiftDate } from '../../chronos/utils/date-setters';
-import { endOf, startOf } from '../../chronos/utils/start-end-of';
 
 export interface FlagDaysCalendarOptions {
   isDisabled: boolean;
